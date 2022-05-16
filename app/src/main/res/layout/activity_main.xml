@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewAp"
+        android:layout_width="69dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="68dp"
+        android:text="@string/exxtview"
+        app:layout_constraintStart_toEndOf="@+id/textviewApellido"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/Textnom"
+        android:layout_width="69dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="68dp"
+        app:layout_constraintStart_toEndOf="@+id/textviewnombre"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/factorial"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textviewnombre"
+        android:layout_width="63dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="76dp"
+        android:text="@string/Nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exponente"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/potencia"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="69dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="68dp"
+        android:text="@string/textview"
+        app:layout_constraintStart_toEndOf="@+id/textviewnombre"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textviewBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textviewApellido"
+        android:layout_width="63dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="76dp"
+        android:text="@string/Apellido"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/Siguiente"
+        android:layout_width="387dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Siguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/MostrarResultados"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Mostrar Resultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="520dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

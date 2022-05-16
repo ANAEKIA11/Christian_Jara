@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido: "
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/base4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero (FactoriL):"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/base3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exponente"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Cerrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="516dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

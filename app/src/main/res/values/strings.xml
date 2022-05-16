@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Jara_Abad</string>
+    <string name="nombre">Nombre</string>
+    <string name="textview">TextView</string>
+    <string name="apellido">Apellido</string>
+    <string name="exxtview">exxtView</string>
+    <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="base">Base:</string>
+    <string name="Apellido">Apellido:</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="factorial">Factorial:</string>
+    <string name="potencia">Potencia:</string>
+    <string name="exponente">Exponente:</string>
+    <string name="textview">TextView</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="Base">Base:</string>
+    <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="cerrar">Cerrar</string>
+</resources>
